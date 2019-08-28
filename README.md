@@ -12,7 +12,7 @@ The file contains the following files and folder:
 ---
 
 ### data
- - This folder consists of the training data, It is the collection of possible dialogues so as to train the RASA NLU with the intent and the entities in the context/sentence that a user provides.
+ - This folder consists of the training data `data.json` , It is the collection of possible dialogues so as to train the RASA NLU with the intent and the entities in the context/sentence that a user provides.
  
  - The old versions of RASA were using `.json` file format and the newer versions use `.md` format but since to train this high level model I used `.json` format because I utilized the convinience of `npm trainer`, it uses GUI to get the context, Intent and entities from the developer and add it to the file.
  
@@ -26,4 +26,13 @@ The file contains the following files and folder:
  
  ---
  
- 
+ ### config_spacy.json
+  - This was present in the older version will be upgraded
+  - This is the main file that contains the `pipeline`, here the pipeline used is `spacy_sklearn`, spacy_sklearn is used because this contains pretrained word model that is useful since there are less than 1000 training data for word vectors.
+  - This has to be downloaded first using the following syntax:
+      `python -m spacy download en` , this downloads the English model and thus helps the chatbot to make conversation easily.
+  - Since this is a high level model I am using spacy, I will try to implement `tensorflow_embedding` and experiment with results and then give out the final model.
+
+---
+
+
