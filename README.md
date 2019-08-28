@@ -35,4 +35,6 @@ The file contains the following files and folder:
 
 ---
 
-
+### rail_domain.yml
+  - This `.yml` file consists of the templates of some words that the chatbot could use to speak to the user.
+  - It also contains all the Intents and Entities that are present for the chatbot to detect and perform respective actions.
