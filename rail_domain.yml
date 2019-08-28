@@ -1,0 +1,46 @@
+slots:
+  location:
+    type: text
+  train_number:
+    type: number
+  pnr_number:
+    type: number
+
+intents:
+  - greet
+  - goodbye
+  - train_status
+  - pnr_status
+
+entities:
+  - location
+  - train_number
+  - pnr_number
+
+templates:
+  utter_greet:
+    - 'Hello How can I help you?'
+    - 'Hai What can I do for you?'
+    - 'How may I help you today?'
+  
+  utter_goodbye:
+    - 'Happy to help'
+    - 'Nice talking to you'
+    - 'Good Day to you'
+
+  utter_default:
+    - 'I am sorry I didn't get that'
+    - 'I am sorry can you repeat again'
+  
+  utter_ask_train_number:
+    - 'Please give your train number !'
+  
+  utter_ask_pnr_number:
+    - 'Please give me your pnr number !'
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_train_number
+  - utter_ask_pnr_number
+

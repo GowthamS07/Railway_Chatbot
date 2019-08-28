@@ -1,0 +1,276 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Namaste",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Vanakkam",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "See you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "See ya",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Thanks for the help",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Will talk again",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Talk to you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "ttyl",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "What is the train timing?",
+        "intent": "train_status",
+        "entities": []
+      },
+      {
+        "text": "train number 14005",
+        "intent": "train_status",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "value": "14005",
+            "entity": "train_number"
+          }
+        ]
+      },
+      {
+        "text": "What is the status of 75289?",
+        "intent": "train_status",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "75289",
+            "entity": "train_number"
+          }
+        ]
+      },
+      {
+        "text": "What is status for train number 07147",
+        "intent": "train_status",
+        "entities": [
+          {
+            "start": 32,
+            "end": 37,
+            "value": "07147",
+            "entity": "train_number"
+          }
+        ]
+      },
+      {
+        "text": "status 98985",
+        "intent": "train_status",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "98985",
+            "entity": "train_number"
+          }
+        ]
+      },
+      {
+        "text": "01254",
+        "intent": "train_status",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "01254",
+            "entity": "train_number"
+          }
+        ]
+      },
+      {
+        "text": "When does the train 22612 reach NJP",
+        "intent": "train_status",
+        "entities": [
+          {
+            "start": 32,
+            "end": 35,
+            "value": "NJP",
+            "entity": "location"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "22612",
+            "entity": "train_number"
+          }
+        ]
+      },
+      {
+        "text": "Timing of 21784",
+        "intent": "train_status",
+        "entities": [
+          {
+            "start": 10,
+            "end": 15,
+            "value": "21784",
+            "entity": "train_number"
+          }
+        ]
+      },
+      {
+        "text": "What is the pnr status of 1023456789",
+        "intent": "pnr_status",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "1023456789",
+            "entity": "pnr"
+          }
+        ]
+      },
+      {
+        "text": "pnr 1023456879",
+        "intent": "pnr_status",
+        "entities": [
+          {
+            "start": 4,
+            "end": 14,
+            "value": "1023456879",
+            "entity": "pnr"
+          }
+        ]
+      },
+      {
+        "text": "Is 1023457896 confirmed ?",
+        "intent": "pnr_status",
+        "entities": [
+          {
+            "start": 3,
+            "end": 13,
+            "value": "1023457896",
+            "entity": "pnr"
+          }
+        ]
+      },
+      {
+        "text": "1023456799",
+        "intent": "pnr_status",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "1023456799",
+            "entity": "pnr"
+          }
+        ]
+      },
+      {
+        "text": "status of 7845961230",
+        "intent": "pnr_status",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "7845961230",
+            "entity": "pnr"
+          }
+        ]
+      },
+      {
+        "text": "How are you?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "I am fine. Are you?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "How do u do man",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "It has been long since I saw you last, how do you do ?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "how is everything going?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Are you alright?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Good Morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Good Afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Good Night",
+        "intent": "goodbye",
+        "entities": []
+      }
+    ]
+  }
+}
