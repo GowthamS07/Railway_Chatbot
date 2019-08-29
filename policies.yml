@@ -1,0 +1,16 @@
+policies:
+  # KerasPolicy here uses LSTM (Long Short Term Memory) a RNN architecture to choose the next action
+  - name: KerasPolicy
+    epochs: 100
+    max_history: 5
+
+  # FallbackPolicy as the name suggests fallsback from the conversation if the intent doesn't meet the threshold value of 50%
+  - name: FallbackPolicy
+    fallback_action_name: 'action_default_fallback'
+
+  # MemoizationPolicy memorises the conversation that we have given in the training data.
+  # max_history is important as it tells us how much dialogue history the model looks at to decide the next action.
+  - name: MemoizationPolicy
+    max_history: 5
+
+# To train the model use the command given in ReadMe file.
